@@ -140,6 +140,7 @@ header .toggle.active
 	transition: 0.5s;
 	background: #ff8357;
 	letter-spacing: 2px;
+	border-radius: 2px;
 }
 .content .contentBx a:last-child
 {
@@ -151,6 +152,8 @@ header .toggle.active
 	letter-spacing: 4px;
 	background: #fff;
 	color: #111;
+	border-radius: 50px;
+	
 }
 .csi 
 {
@@ -239,7 +242,7 @@ header .toggle.active
 .menu li a:hover
 {
 	letter-spacing: 6px;
-	background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,1) 100%);
+	background: #fff;
 	color: #161a23;
 	border-radius: 5px;
 }

@@ -28,7 +28,7 @@ section::before
 	height: 500px;
 	border-radius: 50%;
 	/*cor do circulo*/
-	background: #ed325f;
+	background: #ff8357;
 	transition: 1s;
 }
 section.active::before
@@ -36,7 +36,7 @@ section.active::before
 	/*cor do circulo ativo*/
 	background: #21283a;
 	/*cor do fundo ativo*/
-	box-shadow: 0 0 0 1200px #1ede6d;
+	box-shadow: 0 0 0 1200px #89d5c9;
 }
 header
 {
@@ -102,7 +102,7 @@ header .toggle.active
 .content .contentBx h4
 {
 	font-weight: 400;
-	color: #1ede6d;
+	color: #89d5c9;
 	font-size: 1.5em;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
@@ -138,12 +138,12 @@ header .toggle.active
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 0.5s;
-	background: #ed325f;
+	background: #ff8357;
 	letter-spacing: 2px;
 }
 .content .contentBx a:last-child
 {
-	background: #1ede6d;
+	background: #89d5c9;
 	color: #111;
 }
 .content .contentBx a:hover

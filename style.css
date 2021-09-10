@@ -36,7 +36,7 @@ section.active::before
 	/*cor do circulo ativo*/
 	background: #21283a;
 	/*cor do fundo ativo*/
-	box-shadow: 0 0 0 1200px #ed325f;
+	box-shadow: 0 0 0 1200px #1ede6d;
 }
 header
 {

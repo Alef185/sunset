@@ -36,7 +36,7 @@ section.active::before
 	/*cor do circulo ativo*/
 	background: #21283a;
 	/*cor do fundo ativo*/
-	box-shadow: 0 0 0 1200px #89d5c9;
+	box-shadow: 0 0 0 1900px #89d5c9;
 }
 header
 {
@@ -177,7 +177,7 @@ header .toggle.active
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	borders: 2px solid #fff;
+	border: 2px solid #fff;
 	border-radius: 50%;
 }
 .sci li:hover a
@@ -228,7 +228,7 @@ header .toggle.active
 }
 .menu li a 
 {
-	color: #08381b;
+	color: #151836;
 	text-decoration: none;
 	font-size: 1.5em;
 	padding: 5px 10px;

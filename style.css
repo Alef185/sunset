@@ -15,7 +15,7 @@ section
 	display: flex;
 	align-items: center;
 	/*fundo site*/
-	background: #21283a;
+	background: #293241;
 }
 section::before
 {
@@ -28,15 +28,15 @@ section::before
 	height: 500px;
 	border-radius: 50%;
 	/*cor do circulo*/
-	background: #ff8357;
+	background: #ee6c4d;
 	transition: 1s;
 }
 section.active::before
 {
 	/*cor do circulo ativo*/
-	background: #21283a;
+	background: #293241;
 	/*cor do fundo ativo*/
-	box-shadow: 0 0 0 1900px #89d5c9;
+	box-shadow: 0 0 0 1900px #3d5a80;
 }
 header
 {
@@ -102,7 +102,7 @@ header .toggle.active
 .content .contentBx h4
 {
 	font-weight: 400;
-	color: #89d5c9;
+	color: #98c1d9;
 	font-size: 1.5em;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
@@ -138,13 +138,13 @@ header .toggle.active
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 0.5s;
-	background: #ff8357;
+	background: #ee6c4d;
 	letter-spacing: 2px;
 	border-radius: 2px;
 }
 .content .contentBx a:last-child
 {
-	background: #89d5c9;
+	background: #98c1d9;
 	color: #111;
 }
 .content .contentBx a:hover
@@ -520,8 +520,8 @@ ul{
 {
 	position: relative;
 	width: 250px;
-	height: 300px;
-	background: #fff;
+	height: 350px;
+	background: rgb(255, 255, 255);
 	margin: 10px;
 	border-radius: 20px;
 	overflow: hidden;
@@ -532,7 +532,7 @@ ul{
 	position: relative;
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: #fcc101;
 	clip-path: circle(150px at center 0);
 	text-align: center;
 }
@@ -546,21 +546,60 @@ ul{
 {
 	position: absolute;
 	bottom: 10px;
-	padding: 20px;
+	padding: 1px;
 	text-align: center;
 }
 .containerCard .card .contentCard span
 {
-	color: grey;
+	color: #000;
 }
 .containerCard .card .contentCard a
 {
 	position: relative;
 	display: inline-block;
 	padding: 10px 20px;
-	color: #fff;
-	background: black;
+	color: rgb(255, 255, 255);
+	background: #ffd446;
 	border-radius: 40px;
 	text-decoration: none;
-	margin-top: 20px;
+	margin-top: 10px;
+}
+.containerCard .card .circle:nth-child(1) .circle,
+.containerCard .card .circle:nth-child(1) .content a
+{
+	background: #ff8357;
+}
+.content .contentBx2
+{
+	position: relative;
+	max-width: 900px;
+	padding-top: 80px;
+}
+.content .contentBx2 h4
+{
+	font-weight: 400;
+	color: #89d5c9;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.content .contentBx2 h2
+{
+	line-height: 1em;
+	color: #fff;
+	font-size: 3em;
+}
+.content .contentBx2 h3
+{
+	font-weight: 300;
+	color: #fff;
+	font-size: 2em;
+	line-height: 1.5em;
+}
+.content .contentBx2 p
+{
+	font-size: 1em;
+	color: #fff;
+	margin: 10px 0 20px;
+	font-weight: 300;
 }

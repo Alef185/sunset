@@ -61,6 +61,7 @@ header .logo
 }
 header .toggle
 {
+	visibility: none;
 	position: relative;
 	width: 30px;
 	height: 30px;

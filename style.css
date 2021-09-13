@@ -377,7 +377,7 @@ header
 	align-items: center;
 	padding: 30px 100px;
 }
-/*carrousel*/
+/* carrousel
 .carousel-wrapper {
   height: 500px;
   position: relative;
@@ -448,7 +448,7 @@ header
 #item-2:target ~ .item-2, #item-3:target ~ .item-3 {
   z-index: 3;
   opacity: 1;
-} 
+}  */
 
 /*teste footer responsivo*/
 .container{

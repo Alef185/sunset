@@ -141,8 +141,9 @@
 		const banner = document.querySelector('.banner');
 		toggle.onclick = function(){
 			toggle.classList.toggle('active')
-			banner.classList.toggle('active')
+			banner.classList.toggle('active')	
 		}
+		document.addEventListener('contextmenu', event => event.preventDefault());
 	</script>
 </body>
 </html>
